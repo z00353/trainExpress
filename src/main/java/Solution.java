@@ -3,23 +3,22 @@ import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.DirectedWeightedPseudograph;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 // We need jgrapht library to work on this solution
 
-public class Solution extends StationNamesHolder {
+class Solution extends StationNamesHolder {
     static Scanner input = new Scanner(System.in);
     // All data identifiers are "static" as their values do not change
     // Create new objects (stations)
-    static Station a = new Station("ALPHA");
-    static Station b = new Station("BETA");
-    static Station c = new Station("GAMA");
-    static Station d = new Station("DELTA");
-    static Station e = new Station("EPSILON");
+    private static Station a = new Station("ALPHA");
+    private static Station b = new Station("BETA");
+    private static Station c = new Station("GAMA");
+    private static Station d = new Station("DELTA");
+    private static Station e = new Station("EPSILON");
+    
     // We need a tool to map Station object with its String name
-    static Map<String, Station> mapOfStations = new HashMap<String, Station>();
+    private static Map<String, Station> mapOfStations = new HashMap<String, Station>();
 
     // Mapping keys with their values
     static {
@@ -31,10 +30,10 @@ public class Solution extends StationNamesHolder {
     }
 
     // Applying the algorithm
-    DijkstraShortestPath<Station, String> algorithm =
+    private DijkstraShortestPath<Station, String> algorithm =
             new DijkstraShortestPath<Station, String>(createGraph());
 
-    public static DirectedWeightedPseudograph createGraph() {
+    static DirectedWeightedPseudograph createGraph() {
         // Creating the graph itself
         DirectedWeightedPseudograph<Station, DefaultWeightedEdge> graph =
                 new DirectedWeightedPseudograph<Station, DefaultWeightedEdge>(DefaultWeightedEdge.class);
@@ -58,7 +57,7 @@ public class Solution extends StationNamesHolder {
         return graph;
     }
 
-    public void takeInput() {
+    void takeInput() {
         // Take user input and print out results
         displayNames();
         System.out.println("Start station: ");
@@ -83,5 +82,10 @@ public class Solution extends StationNamesHolder {
         } catch (Exception e) {
             System.out.println("\nAn error occurred. Please, try later.");
         }
+    }
+    // TODO
+    @Override
+    boolean checkInput() {
+        return false;
     }
 }

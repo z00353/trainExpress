@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d38055ac-6de6-4e8d-8732-e54c8c50688a" name="Default Changelist" comment="" />
+    <list default="true" id="d38055ac-6de6-4e8d-8732-e54c8c50688a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StationNamesHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StationNamesHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Station.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StationNamesHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StationNamesHolder.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +47,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -58,6 +69,13 @@
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="directionFinder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="directionFinder" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +109,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Maven.directionFinder [clean,install]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +137,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
