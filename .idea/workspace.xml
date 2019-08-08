@@ -26,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1P3Ip6EE0DtMh0xSzmhg5MOmRI6" />
@@ -112,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1565096532465</updated>
     </task>
+    <task id="LOCAL-00001" summary="Method displayName() changed. Small adjustments.">
+      <created>1565282828289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565282828289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,10 +132,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Method displayName() changed. Small adjustments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Method displayName() changed. Small adjustments." />
   </component>
 </project>
